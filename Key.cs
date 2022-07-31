@@ -5,10 +5,10 @@
         private static String[] AlphabetUpper = {"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"};
         private static List<String> LowerList = new List<String>();
         private static String[] Numbers = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "0"};
-        private static String[] Symbols = {@"!", @"@", @"#", @"$", @"%", @"^", @"&", @"*", @"(", @")", @"-", @"_", @"+", @"=", @"~", @"`", @";", @":", "\"", @"'", @"{", @"}", @"[", @"]", @"|", @"\", @"<", @">", @",", @".", @"/", @"?"};
+        private static String[] Symbols = {@"!", @"@", @"#", @"$", @"%", @"^", @"&", @"*", @"(", @")", @"-", @"_", @"+", @"=", @"~", @"`", @";", @":", "\"", @"'", @"{", @"}", @"[", @"]", @"|", @"\", @"<", @">", @",", @".", @"/", @"?", @" "};
         private static List<String> FullList = new List<String>();
-        private static String[]? FullArray;
-        private static void Initialize()
+        protected internal static String[]? FullArray;
+        protected internal static void Initialize()
         {
             for (int i = 0; i < AlphabetUpper.Length; i++)
             {
