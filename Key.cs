@@ -3,20 +3,15 @@
     public class Key
     {
         private static String[] AlphabetUpper = {"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"};
-        private static List<String> LowerList = new List<String>();
+        // private static List<String> LowerList = new List<String>();
+        private static String[] AlphabetLower = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"};
         private static String[] Numbers = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "0"};
         private static String[] Symbols = {@"!", @"@", @"#", @"$", @"%", @"^", @"&", @"*", @"(", @")", @"-", @"_", @"+", @"=", @"~", @"`", @";", @":", "\"", @"'", @"{", @"}", @"[", @"]", @"|", @"\", @"<", @">", @",", @".", @"/", @"?", @" "};
         private static List<String> FullList = new List<String>();
         protected internal static String[]? FullArray;
         protected internal static void Initialize()
         {
-            for (int i = 0; i < AlphabetUpper.Length; i++)
-            {
-                List<String> LowerList = new List<String>();
-                LowerList.Add(AlphabetUpper[i].ToLower());
-            }
-
-            String[] AlphabetLower = LowerList.ToArray<String>();
+            // String[] AlphabetLower = LowerList.ToArray<String>();
 
             foreach (String AlHigh in AlphabetUpper)
             {
